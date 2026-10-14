@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f2f4f8;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="text"] {
+    width: 130px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+/* ส่วนที่ใช้แสดงภาพพื้นหลัง */
+.parallax {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ภาพพื้นหลังรูปแรก */
+.image-one {
+    background-image: url("https://scontent.fbkk6-2.fna.fbcdn.net/v/t1.6435-9/92018702_10157179101983634_637430484539801600_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1080&ctp=s640x640&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_ZprT3rp92gQ7kNvwFmJHtk&_nc_oc=AdoaftEAOMfdIYrodZ9Tiq-6fa7rBXwwyaFxkLwTz7QC6533H9RsPHWUTcu9K_cqZFw&_nc_zt=23&_nc_ht=scontent.fbkk6-2.fna&_nc_gid=YRIA5tQHcqoaOKbL0q5IEQ&_nc_ss=7b289&oh=00_AQM8Co-cHi_kliLHWz3iZ8eCOkaS3ytRsqic9MUrk5OiWg&oe=6AF6D321");
+}
+
+/* กล่องสีดำตรงกลาง */
+.black-block {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+/* ภาพพื้นหลังรูปที่สอง */
+.image-two {
+    background-image: url("https://www.khaosod.co.th/wpapp/uploads/2026/08/tattoo-1-696x392.jpg");
+}
+
+/* ตกแต่งข้อความบนภาพ */
+.parallax h1 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 30px;
+    letter-spacing: 3px;
+    text-align: center;
+}
