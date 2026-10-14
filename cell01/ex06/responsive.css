@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.BOX {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.BOX div {
+    flex: 1;
+    min-width: 0;
+    border: 1px solid black;
+    text-align: center;
+    overflow-wrap: anywhere;
+    font-size: 100px;
+}
+
+.box1 {
+    background-color: pink;
+}
+
+.box2 {
+    background-color: yellow;
+}
