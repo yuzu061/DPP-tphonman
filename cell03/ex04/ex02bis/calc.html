@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX02</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="calc.js" defer></script>
+</head>
+<body>
+
+    <h1>Basic Calculator</h1>
+
+    <form id="calculator">
+        <input type="text" id="left" placeholder="First number" aria-label="First number">
+
+        <select id="operator" aria-label="Operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+        </select>
+
+        <input type="text" id="right" placeholder="Second number" aria-label="Second number">
+
+        <input type="submit" value="Try me!">
+    </form>
+
+</body>
+</html>

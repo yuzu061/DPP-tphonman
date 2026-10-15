@@ -1,4 +1,3 @@
-
 const balloon = document.getElementById("balloon");
 
 let size = 200;
@@ -33,3 +32,4 @@ balloon.addEventListener("mouseleave", function () {
 
     updateBalloon();
 });
+
