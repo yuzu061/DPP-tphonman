@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>เซียมซีออนไลน์</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="brand" href="#home">🔮 เซียมซีออนไลน์</a>
+  <div class="links">
+    <a href="#home">หน้าแรก</a>
+    <a href="#siamsi">เซียมซี</a>
+    <a href="#coin">ทอยเหรียญ</a>
+    <a href="#about">ที่มา</a>
+  </div>
+  <button id="themeBtn" type="button">โหมดสว่าง</button>
+</nav>
+
+<header id="home" class="section hero">
+  <img src="images-removebg-preview.png" alt="เซียมซีเสี่ยงโชค" class="crystal">
+  <h1>เซียมซีออนไลน์</h1>
+  <p>อยากเสี่ยงดวงแต่ไม่อยากออกจากบ้าน เสี่ยงทายได้ที่นี่ ฟรี</p>
+  <a class="btn" href="#siamsi">เริ่มเสี่ยงทาย</a>
+</header>
+
+<section id="siamsi" class="section">
+  <h2>เซียมซีออนไลน์</h2>
+  <p>ตั้งจิตอธิษฐานในใจ แล้วกดเขย่ากระบอกเซียมซี</p>
+  <div class="stick-box">
+    <div id="cup" class="cup">🥢</div>
+    <button id="shakeBtn" class="btn" type="button">เขย่าเซียมซี</button>
+  </div>
+  <div id="siamsiResult" class="result" aria-live="polite">ยังไม่ได้เขย่า</div>
+  <p class="count">เสี่ยงไปแล้ว <span id="siamsiCount">0</span> ครั้งในหน้านี้</p>
+</section>
+
+<section id="coin" class="section">
+  <h2>ทอยเหรียญ ใช่ หรือ ไม่ใช่</h2>
+  <p>คิดคำถามที่ตอบได้ว่า "ใช่" หรือ "ไม่ใช่" แล้วกดทอยเหรียญ</p>
+  <input id="question" type="text" placeholder="พิมพ์คำถามของคุณ เช่น วันนี้ควรไปสอบไหม">
+  <button id="coinBtn" class="btn" type="button">ทอยเหรียญ</button>
+  <div id="coinResult" class="result" aria-live="polite">รอคำถามของคุณ</div>
+</section>
+
+<section id="about" class="section">
+  <h2>ที่มาของเว็บนี้</h2>
+  <p>ปัจจุบันคนออกจากบ้านน้อยลง แต่ความอยากลองเสี่ยงโชคและเสี่ยงดวงของคนเรายังมีอยู่มาก</p>
+  <!-- TODO: ใส่ตัวเลขที่ research แล้ว พร้อมแหล่งอ้างอิง ตรงนี้ -->
+  <p>การดูดวงออนไลน์ผ่านแชทแม่หมอมีให้เลือก แต่สุดท้ายก็ต้องเสียเงินอยู่ดี เราจึงสร้างเว็บนี้ให้เสี่ยงทายได้ฟรี ไม่ต้องออกจากบ้าน</p>
+  <p class="note">คำทำนายในเว็บนี้ทำขึ้นเพื่อความบันเทิง ไม่ใช่คำแนะนำทางการแพทย์ การเงิน หรือกฎหมาย</p>
+  <h3>ติดต่อทีมงาน</h3>
+  <ul class="contact">
+    <li>อธิวิทย์: <a href="mailto:athiwit.tan@gmail.com">athiwit.tan@gmail.com</a></li>
+    <li>แทนพงศ์: <a href="mailto:tanpong11651@gmail.com">tanpong11651@gmail.com</a></li>
+    <li>GitHub: <a href="https://github.com/athiwittan/DPP-atanmanu" target="_blank" rel="noopener">athiwittan/DPP-atanmanu</a></li>
+    <li>GitHub: <a href="https://github.com/yuzu061/DPP-tphonman" target="_blank" rel="noopener">tphonman/DPP-tphonman</a></li>
+  </ul>
+</section>
+
+<footer>© 2026 เสี่ยงทายออนไลน์ — Piscine Discovery Rush, 42 Bangkok</footer>
+<script src="script.js"></script>
+</body>
+</html>
